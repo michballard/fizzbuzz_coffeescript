@@ -20,12 +20,17 @@ Install npm:
 - Open the pkg and run through the install process
 
 Install mocha and chai:
-```
+```shell
 $ npm install -g mocha
 $ npm install -g chai
 ```
 
-To run tests:
+Clone this repository:
+```shell
+$ git@github.com:michballard/fizzbuzz_coffeescript.git
 ```
+
+To run tests:
+```shell
 $ mocha --compilers coffee:coffee-script/register
 ```
