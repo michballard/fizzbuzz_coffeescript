@@ -12,3 +12,20 @@ Technologies used
 - Mocha
 - Chai
 
+How to use this
+---------------
+Install npm:
+- Go to nodejs.org
+- Click install, (to download the pkg)
+- Open the pkg and run through the install process
+
+Install mocha and chai:
+```
+$ npm install -g mocha
+$ npm install -g chai
+```
+
+To run tests:
+```
+$ mocha --compilers coffee:coffee-script/register
+```
